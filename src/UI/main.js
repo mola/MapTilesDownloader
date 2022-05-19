@@ -112,7 +112,7 @@ $(function() {
 			} else if(outputType == "repo") {
 				outputFileBox.val("tiles.repo")
 			} else if(outputType == "directory") {
-				outputFileBox.val("{z}/{x}/{y}.png")
+				outputFileBox.val("osm_100-l-1-{z}-{x}-{y}.png")
 			}
 		})
 
