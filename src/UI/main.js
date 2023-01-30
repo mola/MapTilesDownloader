@@ -60,11 +60,12 @@ $(function() {
 
 	function initializeMap() {
 
-		mapboxgl.accessToken = 'pk.eyJ1IjoiYWxpYXNocmFmIiwiYSI6ImNqdXl5MHV5YTAzNXI0NG51OWFuMGp4enQifQ.zpd2gZFwBTRqiapp1yci9g';
+		mapboxgl.accessToken = 'pk.eyJ1IjoibW9sYW1wIiwiYSI6ImNsZGlzNWs3YjBhaWwzdm13ZTZjY3ZmNjUifQ.Oxn6lUubX28tsjX-uMdufA';
 
 		map = new mapboxgl.Map({
 			container: 'map-view',
-			style: 'mapbox://styles/aliashraf/ck6lw9nr80lvo1ipj8zovttdx',
+			//style: 'mapbox://styles/aliashraf/ck6lw9nr80lvo1ipj8zovttdx',
+			style: 'mapbox://styles/mapbox/streets-v11',
 			center: [-73.983652, 40.755024], 
 			zoom: 12
 		});
